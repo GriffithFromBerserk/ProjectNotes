@@ -104,7 +104,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         if (result == -1) {
             Toast.makeText(context, "Отредактировать не получилось: возникла неизвестная ошибка.", Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(context, "Заметка отредактированана.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Заметка отредактированана, перезайдите в архив.", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -116,7 +116,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         if (result == -1) {
             Toast.makeText(context, "Отредактировать не получилось: возникла неизвестная ошибка.", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(context, "Заметка удалена.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Заметка удалена, перезайдите в архив.", Toast.LENGTH_SHORT).show();
         }
     }
 }

@@ -4,37 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
     android:id="@+id/mLayout">
 
     <LinearLayout
-        android:layout_width="371dp"
-        android:layout_height="250dp"
+        android:layout_width="355dp"
+        android:layout_height="376dp"
+        android:background="@drawable/item_note_background"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136">
+        app:layout_constraintVertical_bias="0.498">
 
         <TextView
             android:id="@+id/headingView"
             android:layout_width="match_parent"
-            android:layout_height="58dp"
-            android:fontFamily="@font/font"
+            android:layout_height="68dp"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
             android:text="Heading"
-            android:textColor="#FFFFFF"
-            android:textSize="40sp"
+            android:textColor="#673AB7"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/descriptionView"
-            android:layout_width="match_parent"
-            android:layout_height="187dp"
-            android:fontFamily="@font/font"
+            android:layout_width="341dp"
+            android:layout_height="306dp"
+            android:fontFamily="@font/applefont"
             android:text="Description"
-            android:textColor="#FFFFFF"
-            android:textSize="28sp"
-            android:textStyle="italic" />
+            android:textColor="#ff6750a4"
+            android:textSize="25sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
