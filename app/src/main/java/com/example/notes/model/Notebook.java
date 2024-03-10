@@ -1,5 +1,9 @@
+//cигма тайлер дерден
+//патрик бэйтман лучше
+//нет джокер имба
+//да заткнитесь уже
+//мы сигмы, мы не затыкаемся
 package com.example.notes.model;
-
 public class Notebook {
     private String id; // поле идентификатора записи в блокноте
     private String heading; // поле заголовка записи в блокноте

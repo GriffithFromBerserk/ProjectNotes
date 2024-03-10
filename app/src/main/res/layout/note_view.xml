@@ -21,21 +21,22 @@
         <TextView
             android:id="@+id/headingView"
             android:layout_width="match_parent"
-            android:layout_height="68dp"
+            android:layout_height="70dp"
             android:fontFamily="@font/bold"
             android:gravity="center"
             android:text="Heading"
             android:textColor="#673AB7"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/descriptionView"
             android:layout_width="341dp"
             android:layout_height="306dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="@font/applefont"
             android:text="Description"
             android:textColor="#ff6750a4"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

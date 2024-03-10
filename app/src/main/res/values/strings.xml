@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Project Notes</string>
-    <string name="app_version">v.1.1 | Разработано командой Project. 2023 г.</string>
-    <string name="app_version_credits">1.1 Release</string>
-    <string name="CodeVersion">2</string>
+    <string name="app_version">v.1.2 | Разработано командой Project. 2023-2024 г.</string>
+    <string name="app_version_credits">1.2 Release</string>
+    <string name="CodeVersion">3</string>
     <string name="minAndroidSDK">API 26 (OREO 8.0)</string>
+    <string name="Developer">AlphaProject Team</string>
+    <string name="Year">2023-2024</string>
 </resources>

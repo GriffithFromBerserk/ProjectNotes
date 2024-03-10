@@ -23,12 +23,6 @@ import java.util.List;
 
 public class ViewActivity extends AppCompatActivity implements View.OnClickListener{
 
-    final LocalTime MORNING_TIME = LocalTime.of(5,0);
-    final LocalTime DAY_TIME = LocalTime.of(11,0);
-    final LocalTime EVENING_TIME = LocalTime.of(18,0);
-    final LocalTime NIGHT_TIME = LocalTime.of(23,0);
-    LocalTime curTime = LocalTime.now();
-
     private RecyclerView recyclerView;
     private List<Notebook> notebookList;
     private DatabaseHelper database;

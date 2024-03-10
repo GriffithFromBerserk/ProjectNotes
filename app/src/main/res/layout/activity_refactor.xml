@@ -9,32 +9,33 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="359dp"
-        android:layout_height="542dp"
+        android:layout_width="350dp"
+        android:layout_height="510dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136">
+        app:layout_constraintVertical_bias="0.234">
 
         <EditText
             android:id="@+id/addHeadingView"
             android:layout_width="match_parent"
-            android:layout_height="58dp"
+            android:layout_height="55dp"
             android:fontFamily="@font/bold"
             android:hint="Введите название..."
             android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
 
         <EditText
             android:id="@+id/addDescriptionView"
-            android:layout_width="375dp"
-            android:layout_height="486dp"
+            android:layout_width="350dp"
+            android:layout_height="445dp"
             android:fontFamily="@font/applefont"
             android:hint="Введите текст..."
             android:textColor="#FFFFFF"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        >
+        app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabBack3"
